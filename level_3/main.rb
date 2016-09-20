@@ -19,5 +19,5 @@ end
 # check if it's good with an each and puts output
 @persons.each do |person|
   puts ''
-  puts "Person title : #{person.title}, first_name : #{person.first_name}, last_name : #{person.last_name}, email : #{person.email}"
+  puts "Person gender : #{person.gender(person.title)}, first_name : #{person.first_name}, last_name : #{person.last_name}, email : #{person.email}"
 end

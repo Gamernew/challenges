@@ -9,4 +9,12 @@ class Person
     @last_name = last_name
     @email = email
   end
+
+  def gender(title)
+    case title
+      when "M", "m" then gender = "Male"
+      when "Mme", "Mlle" then gender = "Female"
+    end
+  end
+
 end
